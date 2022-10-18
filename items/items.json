@@ -1,56 +1,222 @@
 //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 [  
   {
-    "name": "Toggle",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "toggle"
-  },
-  {
-    "name": "Progressive",
-    "type": "progressive",
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Consumable",
+    "name": "Card",
     "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
+    "max_quantity": 144,
+    "img": "images/items/cardicon.png",
+    "codes": "card"
   },
   {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
-    "initial_stage_idx": 0,
+    "name": "Floppy",
+    "type": "consumable",
+    "codes": "floppy",
+    "max_quantity": 100,
+    "img": "images/items/floppyicon.png"
+  },
+  {
+    "name": "Gun",
+    "type": "consumable",
+    "max_quantity": 6,
+    "img": "images/items/gunicon.png",
+    "codes": "gun"
+  },
+  {
+    "name": "Opas",
+    "type": "consumable",
+    "max_quantity": 144,
+    "img": "images/items/levelupicon.png",
+    "codes": "opas"
+  },
+  {
+    "name": "Redcard",
+    "type": "toggle",
+    "img": "images/items/redicon.png",
+    "codes": "redcard"
+  },
+  {
+    "name": "JJ",
+    "type": "toggle",
+    "img": "images/items/jjportrait.png",
+    "codes": "jj"
+  },
+  {
+    "name": "Apple",
+    "type": "toggle",
+    "img": "images/items/appleportrait.png",
+    "codes": "apple"
+  },
+  {
+    "name": "Champ",
+    "type": "toggle",
+    "img": "images/items/champportrait.png",
+    "codes": "champ"
+  },
+  // Options
+  {
+    "name": "Floppys Required",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/floppysrequired.png",
+    "codes": "floppy_reqs"
+  },
+  {
+    "name": "Floppy Disks",
+    "type": "consumable",
+    "max_quantity": 100,
+    "img": "images/items/floppyicon.png",
+    "codes": "floppy_req"
+  },
+  {
+    "name": "Zillion Level Ups",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/gunlevel.png",
+    "codes": "gun_levels"
+  },
+  {
+    "name": "Gun Levels",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
+        "img": "images/items/vanilla.png",
+        "codes": "gun_vanilla",
         "inherit_codes": false
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
+        "img": "images/items/balanced.png",
+        "codes": "gun_balanced",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/low.png",
+        "codes": "gun_low",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/restrictive.png",
+        "codes": "gun_restrictive",
         "inherit_codes": false
       }
     ]
   },
+  {
+    "name": "Jump Level Setting",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/jumplevel.png",
+    "codes": "jump_levels"
+  },
+  {
+    "name": "Jump Levels",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/items/vanilla.png",
+        "codes": "jump_vanilla",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/balanced.png",
+        "codes": "jump_balanced",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/low.png",
+        "codes": "jump_low",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/restrictive.png",
+        "codes": "jump_restrictive",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Opa-Opas Per Level",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/opasetting.png",
+    "codes": "opa_levels"
+  },
+  {
+    "name": "Opa-Opas",
+    "type": "consumable",
+    "max_quantity": 5,
+    "img": "images/items/levelupicon.png",
+    "codes": "opa_level"
+  },
+  // Keys
+  {
+    "name": "Map Display",
+    "type": "toggle",
+    "img": "images/items/key_map.png",
+    "codes": "map"
+  },
+  {
+    "name": "Laser Barrier Stop",
+    "type": "toggle",
+    "img": "images/items/key_laserbarrier.png",
+    "codes": "laser"
+  },
+  {
+    "name": "Sensor Stop",
+    "type": "toggle",
+    "img": "images/items/key_sensorstop.png",
+    "codes": "sensor"
+  },
+  {
+    "name": "Moving Walkway Stop",
+    "type": "toggle",
+    "img": "images/items/key_movingwalkway.png",
+    "codes": "walkway"
+  },
+  {
+    "name": "Auto-Gun Stop",
+    "type": "toggle",
+    "img": "images/items/key_autogun.png",
+    "codes": "auto-gun"
+  },
+  {
+    "name": "Warp A",
+    "type": "toggle",
+    "img": "images/items/key_warpa.png",
+    "codes": "warpa"
+  },
+  {
+    "name": "Warp B",
+    "type": "toggle",
+    "img": "images/items/key_warpb.png",
+    "codes": "warpb"
+  },
+  {
+    "name": "Base Explosion - Main",
+    "type": "toggle",
+    "img": "images/items/key_explosionmain.png",
+    "codes": "main"
+  },
+  {
+    "name": "Explosion Cancel",
+    "type": "toggle",
+    "img": "images/items/key_explosioncancel.png",
+    "codes": "cancel"
+  },
+  {
+    "name": "Death",
+    "type": "toggle",
+    "img": "images/items/key_suicide.png",
+    "codes": "death"
+  },
+  {
+    "name": "Keywords",
+    "type": "toggle",
+    "allow_disabled": false,
+    "img": "images/items/keyword.png",
+    "codes": "keyword"
+  }
 ]

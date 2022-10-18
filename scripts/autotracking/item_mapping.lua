@@ -2,8 +2,12 @@
 -- first value is the code of the target item and the second is the item type (currently only "toggle", "progressive" and "consumable" but feel free to expand for your needs!)
 -- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
 ITEM_MAPPING = {
-    [00000] = {"toggle", "toggle"},
-    [00001] = {"progressive", "progressive"},
-    [00002] = {"consumable", "consumable"},
-    [00003] = {"progressive_toggle", "progressive"} -- progressive_toggle should work with the progressive type but might need additional code to work for your needs
+    [58675309] = {"card", "consumable"},
+    [78675309] = {"floppy", "consumable"},
+    [108675309] = {"gun", "consumable"},
+    [98675309] = {"opas", "consumable"},
+    [68675309] = {"redcard", "toggle"},
+    [28675309] = {"jj", "toggle"},
+    [08675309] = {"apple", "toggle"},
+    [18675309] = {"champ", "toggle"}
 }

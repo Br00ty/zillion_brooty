@@ -10,16 +10,16 @@
   "author": "Br00ty",
   "variants": {
     "standard": {
-      "display_name": "Map Tracker",
+      "display_name": "Item/Setting Tracker",
       "flags": [
         "ap" //enables AP autotracking interface - remove if not needed
       ]
-    },
-    "var_itemsonly": {
-     "display_name": "Items Only",
-     "flags": [
-       "ap" //enables AP autotracking interface - remove if not needed
-     ]
+      //    },
+      //    "var_itemsonly": {
+      //     "display_name": "Items Only",
+      //     "flags": [
+      //       "ap" //enables AP autotracking interface - remove if not needed
+      //     ]
     }
   }
 }

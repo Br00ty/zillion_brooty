@@ -7,27 +7,140 @@
         "margin": "0,0",
         "content": [
             {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "10, 10",
-                        "h_alignment": "left",
-                        "rows": [
-                            [
-                                "toggle",
-                                "progressive"           
-                            ],
-                            [
-                                "consumable",
-                                "progressive_toggle"
-                            ]
-                        ]
-                    }
+                "type": "itemgrid",
+                "item_margin": "4, 1",
+                "margin": "7,4,0,0",
+                "item_size": 74,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "jj",
+                        "apple",
+                        "champ"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "5, -2",
+                "item_size": 40,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "card",
+                        "gun",
+                        "opas",
+                        "floppy",
+                        "redcard"
+                    ]
                 ]
             }
+        ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "background": "#303841",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4, 1",
+                "margin": "0,3,0,0",
+                "item_size": 55,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "floppy_reqs",
+                        "gun_levels",
+                        "jump_levels",
+                        "opa_levels"
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "12,5",
+                "margin": "-2,-20,0,0",
+                "item_size": 40,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "floppy_req",
+                        "gun_vanilla",
+                        "jump_vanilla",
+                        "opa_level"
+                    ]
+                ]
+            }
+        ]
+    },
+    "keyword_grid": {
+        "type": "array",
+//        "background": "#303841",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4, 1",
+                "margin": "0,3,0,0",
+                "item_size": 80,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "",
+                        "keyword"
+
+                    ]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "5,5",
+                "margin": "-2,-60,0,0",
+                "item_size": 42,
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "map",
+                        "laser",
+                        "sensor",
+                        "walkway",
+                        "auto-gun"
+                    ],
+                    [
+                        "warpa",
+                        "warpb",
+                        "main",
+                        "cancel",
+                        "death"
+                    ]
+                ]
+            }
+        ]
+    },
+    "settings_grid(old)": {
+        "type": "itemgrid",
+        "background": "#303841",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "margin": "0,3,0,0",
+        "item_margin": "4,1",
+        "item_size": 55,
+        "rows": [
+            [
+                "floppy_reqs",
+                "gun_levels",
+                "jump_levels",
+                "opa_levels"
+            ],
+            [
+                "floppy_req",
+                "gun_vanilla",
+                "jump_vanilla",
+                "opa_level"
+            ]
         ]
     }
 }

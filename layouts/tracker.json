@@ -21,82 +21,42 @@
                 "type": "layout",
                 "key": "shared_item_grid"
               }
-            }
-          ]
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
-                ]
-              }
             },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "tracker_horizontal": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": true,
-      "content": [
-        {
-          "type": "dock",
-          "dock": "bottom",
-          "content": [
             {
               "type": "group",
-              "header": "Items",
-              "dock": "left",
-              "margin": "0,0,3,0",
+              "header": "Keyword Tracker",
+              "dock": "top",
               "content": {
                 "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "shared_item_grid"
-              }
-            }            
-          ]
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
-                ]
+                "key": "keyword_grid"
               }
             },
             {
-              "title": "Map 2",
+              "type": "group",
+              "header": "Settings",
+              "dock": "top",
               "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
-                ]
+                "type": "layout",
+                "key": "settings_grid"
               }
             }
           ]
+          //        },
+          //        {
+          //          "type": "dock",
+          //          "content": [
+          //            {
+          //              "type": "tabbed",
+          //              "dock": "top",
+          //              "tabs": [
+          //                {
+          //                  "title": "Map",
+          //                  "content": {
+          //                    "type": "map",
+          //                    "maps": [
+          //                      "map"
+          //                    ]
+          //                  }
         }
       ]
     }
