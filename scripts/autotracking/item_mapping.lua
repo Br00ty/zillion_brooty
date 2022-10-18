@@ -1,13 +1,10 @@
--- use this file to map the AP item ids to your items
--- first value is the code of the target item and the second is the item type (currently only "toggle", "progressive" and "consumable" but feel free to expand for your needs!)
--- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
 ITEM_MAPPING = {
-    [58675309] = {"card", "consumable"},
-    [78675309] = {"floppy", "consumable"},
-    [108675309] = {"gun", "consumable"},
-    [98675309] = {"opas", "consumable"},
-    [68675309] = {"redcard", "toggle"},
-    [28675309] = {"jj", "toggle"},
-    [08675309] = {"apple", "toggle"},
-    [18675309] = {"champ", "toggle"}
+    [8675314] = {"card", "consumable"},
+    [8675316] = {"floppy", "consumable"},
+    [8675319] = {"gun", "consumable"},
+    [8675318] = {"opas", "consumable"},
+    [8675315] = {"redcard", "toggle"},
+    [8675311] = {"jj", "toggle"},
+    [8675309] = {"apple", "toggle"},
+    [8675310] = {"champ", "toggle"}
 }
